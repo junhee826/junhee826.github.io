@@ -1,0 +1,71 @@
+#backgroundimage {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+#logout {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border: 3px solid black;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
+#weather {
+  margin-right: 50px;
+  text-align: end;
+  color: white;
+}
+#clock {
+  text-align: center;
+  color: white;
+}
+#loginname {
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+#loginform {
+  display: flex;
+  justify-content: center;
+}
+#todoform {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+#logindiv,
+#tododiv {
+  border-radius: 20px;
+  width: 200px;
+  height: 30px;
+  padding: 0px 20px;
+  background-color: yellowgreen;
+}
+#loginform input,
+#todoform input {
+  border-radius: 20px;
+  border: none;
+  background-color: yellowgreen;
+}
+#loginform input:focus,
+#todoform input:focus {
+  outline: none;
+}
+#todo-list {
+  margin: 0px 200px;
+}
+#todo-list li {
+  height: 30px;
+  margin-top: 10px;
+  border-radius: 20px;
+  align-items: center;
+  background-color: beige;
+}
+#todo-list span {
+  color: black;
+}

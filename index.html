@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>VanillaJS Challenge</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <img src="#" id="backgroundimage" />
+    <button id="logout">Log out</button>
+    <div id="weather">
+      <h4></h4>
+      <h4></h4>
+    </div>
+    <h1 id="clock"></h1>
+    <h1 id="loginname"></h1>
+    <form id="loginform">
+      <div id="logindiv">
+        <input type="text" placeholder="username" required id="login" />
+      </div>
+    </form>
+    <form id="todoform">
+      <div id="tododiv">
+        <input type="text" placeholder="todo" required id="todo" />
+      </div>
+    </form>
+    <ul id="todo-list"></ul>
+    <script src="clock.js"></script>
+    <script src="background.js"></script>
+    <script src="login.js"></script>
+    <script src="todo.js"></script>
+    <script src="weather.js"></script>
+  </body>
+</html>
+<!--
+로컬 스토리지를 사용한 투두리스트 저장
+-->
